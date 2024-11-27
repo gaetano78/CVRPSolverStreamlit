@@ -4,11 +4,13 @@ from ortools.constraint_solver import routing_enums_pb2
 from ortools.constraint_solver import pywrapcp
 import numpy as np
 import pandas as pd
-import time
+#import time
+import matplotlib
+#matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 import matplotlib.colors as mcolors
 import json
-import os
+#import os
 import tempfile  # Per creare file temporanei
 
 # Initialize session state variables if they don't exist
@@ -523,3 +525,4 @@ with col3:
             "<div class='placeholder'>Esegui l'algoritmo per visualizzare i dati di output.</div>",
             unsafe_allow_html=True,
         )
+
