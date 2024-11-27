@@ -4,4 +4,3 @@ ortools
 numpy
 pandas
 matplotlib
-tempfile
