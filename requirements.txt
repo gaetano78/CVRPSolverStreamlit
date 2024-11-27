@@ -4,5 +4,4 @@ ortools
 numpy
 pandas
 matplotlib
-json
 tempfile
