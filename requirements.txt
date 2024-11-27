@@ -3,8 +3,6 @@ vrplib
 ortools
 numpy
 pandas
-time
 matplotlib
 json
-os
 tempfile
